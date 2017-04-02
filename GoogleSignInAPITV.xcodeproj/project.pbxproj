@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73D56291E91BA44009347A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D56281E91BA44009347A3 /* AppDelegate.swift */; };
+		E73D562D1E91BA44009347A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73D562C1E91BA44009347A3 /* Assets.xcassets */; };
+		E73D56381E91BA44009347A3 /* GoogleSignInAPITVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D56371E91BA44009347A3 /* GoogleSignInAPITVTests.swift */; };
+		E73D56431E91BA44009347A3 /* GoogleSignInAPITVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D56421E91BA44009347A3 /* GoogleSignInAPITVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73D56341E91BA44009347A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73D561D1E91BA44009347A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73D56241E91BA44009347A3;
+			remoteInfo = GoogleSignInAPITV;
+		};
+		E73D563F1E91BA44009347A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73D561D1E91BA44009347A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73D56241E91BA44009347A3;
+			remoteInfo = GoogleSignInAPITV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73D56251E91BA44009347A3 /* GoogleSignInAPITV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInAPITV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73D56281E91BA44009347A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73D562B1E91BA44009347A3 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		E73D562C1E91BA44009347A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73D562E1E91BA44009347A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73D56331E91BA44009347A3 /* GoogleSignInAPITVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInAPITVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73D56371E91BA44009347A3 /* GoogleSignInAPITVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInAPITVTests.swift; sourceTree = "<group>"; };
+		E73D56391E91BA44009347A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73D563E1E91BA44009347A3 /* GoogleSignInAPITVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInAPITVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73D56421E91BA44009347A3 /* GoogleSignInAPITVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInAPITVUITests.swift; sourceTree = "<group>"; };
+		E73D56441E91BA44009347A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73D56221E91BA44009347A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73D56301E91BA44009347A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73D563B1E91BA44009347A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73D561C1E91BA44009347A3 = {
+			isa = PBXGroup;
+			children = (
+				E73D56271E91BA44009347A3 /* GoogleSignInAPITV */,
+				E73D56361E91BA44009347A3 /* GoogleSignInAPITVTests */,
+				E73D56411E91BA44009347A3 /* GoogleSignInAPITVUITests */,
+				E73D56261E91BA44009347A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73D56261E91BA44009347A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73D56251E91BA44009347A3 /* GoogleSignInAPITV.app */,
+				E73D56331E91BA44009347A3 /* GoogleSignInAPITVTests.xctest */,
+				E73D563E1E91BA44009347A3 /* GoogleSignInAPITVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73D56271E91BA44009347A3 /* GoogleSignInAPITV */ = {
+			isa = PBXGroup;
+			children = (
+				E73D56281E91BA44009347A3 /* AppDelegate.swift */,
+				E73D562C1E91BA44009347A3 /* Assets.xcassets */,
+				E73D562E1E91BA44009347A3 /* Info.plist */,
+				E73D562A1E91BA44009347A3 /* Supporting Files */,
+			);
+			path = GoogleSignInAPITV;
+			sourceTree = "<group>";
+		};
+		E73D562A1E91BA44009347A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73D562B1E91BA44009347A3 /* application.js */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E73D56361E91BA44009347A3 /* GoogleSignInAPITVTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73D56371E91BA44009347A3 /* GoogleSignInAPITVTests.swift */,
+				E73D56391E91BA44009347A3 /* Info.plist */,
+			);
+			path = GoogleSignInAPITVTests;
+			sourceTree = "<group>";
+		};
+		E73D56411E91BA44009347A3 /* GoogleSignInAPITVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E73D56421E91BA44009347A3 /* GoogleSignInAPITVUITests.swift */,
+				E73D56441E91BA44009347A3 /* Info.plist */,
+			);
+			path = GoogleSignInAPITVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73D56241E91BA44009347A3 /* GoogleSignInAPITV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73D56471E91BA44009347A3 /* Build configuration list for PBXNativeTarget "GoogleSignInAPITV" */;
+			buildPhases = (
+				E73D56211E91BA44009347A3 /* Sources */,
+				E73D56221E91BA44009347A3 /* Frameworks */,
+				E73D56231E91BA44009347A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSignInAPITV;
+			productName = GoogleSignInAPITV;
+			productReference = E73D56251E91BA44009347A3 /* GoogleSignInAPITV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73D56321E91BA44009347A3 /* GoogleSignInAPITVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73D564A1E91BA44009347A3 /* Build configuration list for PBXNativeTarget "GoogleSignInAPITVTests" */;
+			buildPhases = (
+				E73D562F1E91BA44009347A3 /* Sources */,
+				E73D56301E91BA44009347A3 /* Frameworks */,
+				E73D56311E91BA44009347A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73D56351E91BA44009347A3 /* PBXTargetDependency */,
+			);
+			name = GoogleSignInAPITVTests;
+			productName = GoogleSignInAPITVTests;
+			productReference = E73D56331E91BA44009347A3 /* GoogleSignInAPITVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E73D563D1E91BA44009347A3 /* GoogleSignInAPITVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73D564D1E91BA44009347A3 /* Build configuration list for PBXNativeTarget "GoogleSignInAPITVUITests" */;
+			buildPhases = (
+				E73D563A1E91BA44009347A3 /* Sources */,
+				E73D563B1E91BA44009347A3 /* Frameworks */,
+				E73D563C1E91BA44009347A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73D56401E91BA44009347A3 /* PBXTargetDependency */,
+			);
+			name = GoogleSignInAPITVUITests;
+			productName = GoogleSignInAPITVUITests;
+			productReference = E73D563E1E91BA44009347A3 /* GoogleSignInAPITVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73D561D1E91BA44009347A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "WillowTree Apps";
+				TargetAttributes = {
+					E73D56241E91BA44009347A3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y32EQUAEWX;
+						ProvisioningStyle = Automatic;
+					};
+					E73D56321E91BA44009347A3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y32EQUAEWX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E73D56241E91BA44009347A3;
+					};
+					E73D563D1E91BA44009347A3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y32EQUAEWX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E73D56241E91BA44009347A3;
+					};
+				};
+			};
+			buildConfigurationList = E73D56201E91BA44009347A3 /* Build configuration list for PBXProject "GoogleSignInAPITV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E73D561C1E91BA44009347A3;
+			productRefGroup = E73D56261E91BA44009347A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73D56241E91BA44009347A3 /* GoogleSignInAPITV */,
+				E73D56321E91BA44009347A3 /* GoogleSignInAPITVTests */,
+				E73D563D1E91BA44009347A3 /* GoogleSignInAPITVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73D56231E91BA44009347A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73D562D1E91BA44009347A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73D56311E91BA44009347A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73D563C1E91BA44009347A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73D56211E91BA44009347A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73D56291E91BA44009347A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73D562F1E91BA44009347A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73D56381E91BA44009347A3 /* GoogleSignInAPITVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73D563A1E91BA44009347A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73D56431E91BA44009347A3 /* GoogleSignInAPITVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73D56351E91BA44009347A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73D56241E91BA44009347A3 /* GoogleSignInAPITV */;
+			targetProxy = E73D56341E91BA44009347A3 /* PBXContainerItemProxy */;
+		};
+		E73D56401E91BA44009347A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73D56241E91BA44009347A3 /* GoogleSignInAPITV */;
+			targetProxy = E73D563F1E91BA44009347A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E73D56451E91BA44009347A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		E73D56461E91BA44009347A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73D56481E91BA44009347A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y32EQUAEWX;
+				INFOPLIST_FILE = GoogleSignInAPITV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.GoogleSignInAPITV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E73D56491E91BA44009347A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y32EQUAEWX;
+				INFOPLIST_FILE = GoogleSignInAPITV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.GoogleSignInAPITV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E73D564B1E91BA44009347A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y32EQUAEWX;
+				INFOPLIST_FILE = GoogleSignInAPITVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.GoogleSignInAPITVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleSignInAPITV.app/GoogleSignInAPITV";
+			};
+			name = Debug;
+		};
+		E73D564C1E91BA44009347A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y32EQUAEWX;
+				INFOPLIST_FILE = GoogleSignInAPITVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.GoogleSignInAPITVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleSignInAPITV.app/GoogleSignInAPITV";
+			};
+			name = Release;
+		};
+		E73D564E1E91BA44009347A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y32EQUAEWX;
+				INFOPLIST_FILE = GoogleSignInAPITVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.GoogleSignInAPITVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleSignInAPITV;
+			};
+			name = Debug;
+		};
+		E73D564F1E91BA44009347A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y32EQUAEWX;
+				INFOPLIST_FILE = GoogleSignInAPITVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.GoogleSignInAPITVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleSignInAPITV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73D56201E91BA44009347A3 /* Build configuration list for PBXProject "GoogleSignInAPITV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73D56451E91BA44009347A3 /* Debug */,
+				E73D56461E91BA44009347A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73D56471E91BA44009347A3 /* Build configuration list for PBXNativeTarget "GoogleSignInAPITV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73D56481E91BA44009347A3 /* Debug */,
+				E73D56491E91BA44009347A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73D564A1E91BA44009347A3 /* Build configuration list for PBXNativeTarget "GoogleSignInAPITVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73D564B1E91BA44009347A3 /* Debug */,
+				E73D564C1E91BA44009347A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73D564D1E91BA44009347A3 /* Build configuration list for PBXNativeTarget "GoogleSignInAPITVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73D564E1E91BA44009347A3 /* Debug */,
+				E73D564F1E91BA44009347A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73D561D1E91BA44009347A3 /* Project object */;
+}
