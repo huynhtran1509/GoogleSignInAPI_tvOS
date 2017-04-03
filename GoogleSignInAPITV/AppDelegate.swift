@@ -8,6 +8,7 @@
 
 import UIKit
 import TVMLKit
+import PromiseKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDelegate {
@@ -50,6 +51,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         if let launchOptions = launchOptions {
             for (kind, value) in launchOptions {
                 appControllerContext.launchOptions[kind.rawValue] = value
+            }
+        }
+        let signInController = GoogleSignInController()
+        signInController.requestPresentationCode().then {userCode, deviceCode, interval -> Void in
+            print("Usercode: \(userCode)\nDeviceCode:\(deviceCode)\ninterval: \(interval)")
+            signInController.requestAccessToken(fromDeviceCode: deviceCode, atInterval: interval).then { accessToken in
+                print("Access Token: \(accessToken)")
             }
         }
         
