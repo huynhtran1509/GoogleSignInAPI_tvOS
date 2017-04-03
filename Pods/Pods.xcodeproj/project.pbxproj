@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A5DC2CCA0162D9702BE0F92A8CFBAF /* CALayer+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D86DBB6A7B7F77D79F889CEBC3755E /* CALayer+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C42D7AFE96B5B11441A8F01BA139BC7 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 784309BC2F9F664345CBDAC98F1B3F64 /* when.m */; };
+		10EDF06B9FF4FAAFE41FEB4DE276DCF4 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95632F4C8D15D6CF8EE867952FA69262 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134F18FD5EC603BA32B6A33445C98BF7 /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151F3BCB4D3157FA04D58BB030A3F0C1 /* wrap.swift */; };
+		15CC6BF6C838230E6B92018F7A5B22F6 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E33654BE09E7109A0FEEE76E49BF8E0 /* NSTask+AnyPromise.m */; };
+		180A2A9C5FA1E8FD24786582592A60EF /* Pods-GoogleSignInAPITVTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5415CBA138C711FD8B1020CB922277DD /* Pods-GoogleSignInAPITVTests-dummy.m */; };
+		1CF00C93F549572D85508F4F58E50822 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = A781E6C7BA06DD8A0A80B0494DA26A4E /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E920D7AC194A709BD38E82B444AE3C7 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD090D6C0E2DF9F4E1C5113FA2809B /* AnyPromise.m */; };
+		1F84677B7A6B807248AAF45496EE8EE3 /* Pods-GoogleSignInAPITVTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CD17372CE67CF49E053E8123611A92 /* Pods-GoogleSignInAPITVTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2893AB33AEAA9183E9F55965502364 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294026AB8B28C610FC57DF2A26EB7FC9 /* NSNotificationCenter+Promise.swift */; };
+		2E2554DF112EA9C77366D40C04647921 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52D452D72EF81C1A4A1B4DBDFC452A /* afterlife.swift */; };
+		328BDFE31ACA3B090E37584BC0420841 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B468F428AC55896FEC0D8C3A1181AC /* NSURLSession+AnyPromise.m */; };
+		36D17D696283F7792625AC20D1B62D7B /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43CFF6D7A6E68F617343E7F43D0A70 /* Process+Promise.swift */; };
+		379AB47467FE719A7C73B2D57178A7FF /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = E7480BAB29A5573D40EBF6E02381C1E2 /* UIViewController+AnyPromise.m */; };
+		38C98E4BE3F1ED134604B233BB2DC82F /* Pods-GoogleSignInAPITVUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F823EA81E8AB7F1E26A81CD43860C4E /* Pods-GoogleSignInAPITVUITests-dummy.m */; };
+		3C0BA4E2E6EAACF2D9FA42893D9451C5 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E1A3D8927D2E8AF5E4B4F6D73D87F /* race.swift */; };
+		3C834B1F3BA437CCE790959DE3C2BD20 /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1067C44E58FDC70B966E04FBDE74357C /* Zalgo.swift */; };
+		3E07B930B33C26F31DFD56A57E4FB8AE /* URLDataPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8C2DDC09A2F5FF7FC82E8881A3996B /* URLDataPromise.swift */; };
+		40FD668DE8B450A6AEF4D4222534A933 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75EB1A5DFBFA4A88D7D61EFBA99D67 /* Promise.swift */; };
+		44A64DBBC6026A70389ACB93F67A1360 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 765DEE6E8D8C524E9695A1C7726AB582 /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4625165B45B976E679C20505312C3C51 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD911A7C16FAA09302EE0DF2F0B0DA9 /* PromiseKit-dummy.m */; };
+		479196131D43D1C4BB61103316A70753 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307E7A48A7523AE477711BA4DF908C9 /* UIView+Promise.swift */; };
+		522BA3F317CE9C8BEF667B6362A36F49 /* AAA-CocoaPods-Hack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8576A7E568CD96E65A5407B00B5896 /* AAA-CocoaPods-Hack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541CBE5BF72D77551AE6331807DFD050 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68AE809A8CC7489C56C94427B6541D9 /* State.swift */; };
+		57C1E96366F805A0750CAC3EB3594147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E3C9923A60F9B0BE0DDE43AA234204 /* Foundation.framework */; };
+		592724B2ABDF75BF3EA3AA45D692BE42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E3C9923A60F9B0BE0DDE43AA234204 /* Foundation.framework */; };
+		59487D32842542A73B3C5BAE1A26D42C /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 9696FB863D0DE618F5B3684606228A4A /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C2587B575C94F023301A1F960F1CF4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8876BB096E5F3D848B36809A1D5551 /* QuartzCore.framework */; };
+		5DAC483F116DFBD60F8D033FE5DE6B79 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337F0663F2253CE5F69CA018CA7C90D8 /* NSURLSession+Promise.swift */; };
+		612375A96D8928060A5C6093682116DC /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE067C99606C1EBDBC80082BBB29D731 /* join.swift */; };
+		62DE9DD44AF7B45AEF2093C8FC9C6E99 /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E0FC77832DD8F52AAEA6A07DF01FFA /* Promise+Properties.swift */; };
+		64F0A7468B95D5507CECEECE8BF1A6A3 /* PMKQuartzCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E1D36DCB7BF8A7DEB230733B158119 /* PMKQuartzCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FE2AC07B69BB393830EDC1D12E8FE9 /* CALayer+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F48B3970DAE9346AD3FA54A3A613328 /* CALayer+AnyPromise.m */; };
+		6D374A028DF55B041DC546487EE7F579 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54353A34BACE92CC6C9B58F9A002D80C /* when.swift */; };
+		6DCB8C9FAAF43293065D7E571A65C781 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 638FC877C26AE2698B03F57C63A5C636 /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BF9E86109F8A0483F408CD811954F0 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CBFE33A983A0ACCB041F14278C83A7 /* AnyPromise.swift */; };
+		74C80B85FBBEF676E7AB79C40455C6BE /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E5506A73993A8CE10F576A1144A74 /* GlobalState.m */; };
+		755C47106790C820CDC02DEA34BA744B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E3C9923A60F9B0BE0DDE43AA234204 /* Foundation.framework */; };
+		79E020D76161C408391AA011B7A8B4C6 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1EC75F3F631688BE467D62877D90CD /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACDAD37707256718C8548F9B75AFC1D /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BE05D1B6D9DB09085F5D597DF8FCF4 /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E2DA12C1B534FF8E396E6D05C11171D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E3C9923A60F9B0BE0DDE43AA234204 /* Foundation.framework */; };
+		81DA851CA772117E9046C4573128324B /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5F4A276E2678B6049F2F139147EC12 /* NSNotificationCenter+AnyPromise.m */; };
+		86F07E87F9EF5C389AAE2ECAA56F09E5 /* Pods-GoogleSignInAPITV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7898D613E95C60DE271308C8707E0617 /* Pods-GoogleSignInAPITV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A4D0C6F59A3E15A882C07A0FA537182 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 456358201EDF663892F5A5110CC5CA7E /* join.m */; };
+		8BD8B5AAABFADA57850170D0760C22D2 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 1200736ACCEE4B6B92F6295F0CCA3B9C /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF25373511BBD8C36F92469B65218588 /* Pods-GoogleSignInAPITV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D11BC94F382A7E8CDDE624F1D0C2 /* Pods-GoogleSignInAPITV-dummy.m */; };
+		C75B3B2B5907D890615503F7C3B5AB5F /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EEC210981A388DDF8ECCEF8433904 /* NSObject+Promise.swift */; };
+		C97B386321ACF5051F42931D7746F510 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C539E5B4145B90676D3AAF6468033 /* dispatch_promise.m */; };
+		CC0D8A3E05D05F5B7BABCD84F324B9BA /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE3B541056E3495362EF0C5DDB405B /* UIViewController+Promise.swift */; };
+		CE34505AAB7475DC5EFAEF69EC774DE3 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A4A6D67494C3E0002B420C1357F36C /* Error.swift */; };
+		CF1A28403FEE60BFBB2FE8919368BD00 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D009A35EE64D77102391EC364147766 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4268A5E44E240955884AF39FF357191 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = D9138162B659B43A23A172E9494C2493 /* hang.m */; };
+		D58DCCFA5F19480B57A69612D564371E /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D18778C1AF0587ED32C6CD637EEAB30E /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49345A2B438E870F25F9AFB85BC89B9 /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4728A86AD91D0728DFEF1F11ECAFCDA /* DispatchQueue+Promise.swift */; };
+		E8BCB2277EA1819293704EFDF02CEEBC /* PMKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA858C2DB288BB308A48DC5193E6F1 /* PMKAlertController.swift */; };
+		EB819595D0CE9CAC69DE2D67B8EBC157 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94397C577F85CF23A22F74205C0AA43F /* after.swift */; };
+		EE467EC6A5D533A5BC9ACBD930A2FCF1 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DD34F4949EBF973D4FD0C5BF0BD095 /* after.m */; };
+		EECF1CE5E47CC8ED9649917E4FFBC3B5 /* Promise+AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0F9E4EAC2A11EF1EF310E64F90E29 /* Promise+AnyPromise.swift */; };
+		EFC2AD1D9483E6D6A83B8CA8F814B432 /* Pods-GoogleSignInAPITVUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7115184B2E78D5D69C53ECD7C0F5F2 /* Pods-GoogleSignInAPITVUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F69DDDB0D6DE509549F8FBCD552A0044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73DBED881E87561D63D92E028CCC6C4 /* UIKit.framework */; };
+		FD88E1A7F895877243C6A359E98622DF /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2B3D19404B7C7A8014B95D5977B946 /* UIView+AnyPromise.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CFC03BAFE32A0209A355F259E3A3D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E051466EBE306135C3B492C914F6A48;
+			remoteInfo = PromiseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00536A85C0E87F9769034BE2369D94A7 /* Pods-GoogleSignInAPITVTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleSignInAPITVTests-resources.sh"; sourceTree = "<group>"; };
+		0296E5B96C43ADDD4C8E364909D81F45 /* Pods-GoogleSignInAPITV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleSignInAPITV-acknowledgements.plist"; sourceTree = "<group>"; };
+		05A5C5FEF5189AA4DA4054E1EAFEAD6A /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD0E5C5CDCEA1FB6485F04145DE00F6 /* Pods-GoogleSignInAPITV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleSignInAPITV.modulemap"; sourceTree = "<group>"; };
+		1067C44E58FDC70B966E04FBDE74357C /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
+		11630026919854EA69DEBD91698E855E /* Pods-GoogleSignInAPITVTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleSignInAPITVTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1200736ACCEE4B6B92F6295F0CCA3B9C /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		13790E3D773BA4ED6DBAAAE94686CE35 /* Pods-GoogleSignInAPITVTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleSignInAPITVTests-frameworks.sh"; sourceTree = "<group>"; };
+		151F3BCB4D3157FA04D58BB030A3F0C1 /* wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrap.swift; path = Sources/wrap.swift; sourceTree = "<group>"; };
+		17DD34F4949EBF973D4FD0C5BF0BD095 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		1D6C539E5B4145B90676D3AAF6468033 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		1E33654BE09E7109A0FEEE76E49BF8E0 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		294026AB8B28C610FC57DF2A26EB7FC9 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		337F0663F2253CE5F69CA018CA7C90D8 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		33A4A6D67494C3E0002B420C1357F36C /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		371E8D8D0DED9FAF17B75A3A91A076EA /* Pods-GoogleSignInAPITVTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleSignInAPITVTests.modulemap"; sourceTree = "<group>"; };
+		37D86DBB6A7B7F77D79F889CEBC3755E /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnyPromise.h"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"; sourceTree = "<group>"; };
+		3D8C2DDC09A2F5FF7FC82E8881A3996B /* URLDataPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLDataPromise.swift; path = Extensions/Foundation/Sources/URLDataPromise.swift; sourceTree = "<group>"; };
+		3F823EA81E8AB7F1E26A81CD43860C4E /* Pods-GoogleSignInAPITVUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleSignInAPITVUITests-dummy.m"; sourceTree = "<group>"; };
+		4096B435C542628DF84979C1C8F7E91B /* Pods-GoogleSignInAPITV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleSignInAPITV-frameworks.sh"; sourceTree = "<group>"; };
+		41BE05D1B6D9DB09085F5D597DF8FCF4 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		42353C6639EC8DF4EF63B7ED5DFB2755 /* Pods-GoogleSignInAPITVUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleSignInAPITVUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		456358201EDF663892F5A5110CC5CA7E /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		4A4E5506A73993A8CE10F576A1144A74 /* GlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobalState.m; path = Sources/GlobalState.m; sourceTree = "<group>"; };
+		4B8576A7E568CD96E65A5407B00B5896 /* AAA-CocoaPods-Hack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AAA-CocoaPods-Hack.h"; path = "Sources/AAA-CocoaPods-Hack.h"; sourceTree = "<group>"; };
+		4E95D4D43E5BE74F3D53886A8F3B4A3D /* Pods-GoogleSignInAPITVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleSignInAPITVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5415CBA138C711FD8B1020CB922277DD /* Pods-GoogleSignInAPITVTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleSignInAPITVTests-dummy.m"; sourceTree = "<group>"; };
+		54353A34BACE92CC6C9B58F9A002D80C /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		560350C91C9EBFB8F5872D856DC1C34A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7115184B2E78D5D69C53ECD7C0F5F2 /* Pods-GoogleSignInAPITVUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleSignInAPITVUITests-umbrella.h"; sourceTree = "<group>"; };
+		633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
+		638FC877C26AE2698B03F57C63A5C636 /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		67E1D36DCB7BF8A7DEB230733B158119 /* PMKQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKQuartzCore.h; path = Extensions/QuartzCore/Sources/PMKQuartzCore.h; sourceTree = "<group>"; };
+		69F0F9E4EAC2A11EF1EF310E64F90E29 /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+AnyPromise.swift"; path = "Sources/Promise+AnyPromise.swift"; sourceTree = "<group>"; };
+		6A8876BB096E5F3D848B36809A1D5551 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6F48B3970DAE9346AD3FA54A3A613328 /* CALayer+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AnyPromise.m"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.m"; sourceTree = "<group>"; };
+		712414F1EB668E30FB07799BF93B44E2 /* Pods_GoogleSignInAPITVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleSignInAPITVUITests.framework; path = "Pods-GoogleSignInAPITVUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7169D281BE21EBDE89279CC8CBD4D717 /* Pods-GoogleSignInAPITVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleSignInAPITVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7307E7A48A7523AE477711BA4DF908C9 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		7516D11BC94F382A7E8CDDE624F1D0C2 /* Pods-GoogleSignInAPITV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleSignInAPITV-dummy.m"; sourceTree = "<group>"; };
+		765DEE6E8D8C524E9695A1C7726AB582 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		784309BC2F9F664345CBDAC98F1B3F64 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		7898D613E95C60DE271308C8707E0617 /* Pods-GoogleSignInAPITV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleSignInAPITV-umbrella.h"; sourceTree = "<group>"; };
+		7A2B3D19404B7C7A8014B95D5977B946 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		7B1EC75F3F631688BE467D62877D90CD /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		7CCA805ECB19BD13DA9441315270EF9D /* Pods-GoogleSignInAPITV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleSignInAPITV.release.xcconfig"; sourceTree = "<group>"; };
+		7E43CFF6D7A6E68F617343E7F43D0A70 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		7FAE3B541056E3495362EF0C5DDB405B /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
+		84CD17372CE67CF49E053E8123611A92 /* Pods-GoogleSignInAPITVTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleSignInAPITVTests-umbrella.h"; sourceTree = "<group>"; };
+		8572C74CBDD296D41AC42EB7096B46B9 /* Pods-GoogleSignInAPITVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleSignInAPITVTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B885F6C6CE85063DD76370F8C6F9301 /* Pods-GoogleSignInAPITV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleSignInAPITV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94397C577F85CF23A22F74205C0AA43F /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		95632F4C8D15D6CF8EE867952FA69262 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		95CEF1DBC350ABBDCEE10381A29128E7 /* Pods_GoogleSignInAPITV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleSignInAPITV.framework; path = "Pods-GoogleSignInAPITV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9696FB863D0DE618F5B3684606228A4A /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		9D009A35EE64D77102391EC364147766 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		A33EBF45EE8F10DF9EDE8A61F2E84FA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F5B96E282210819ACF175601C2C20F /* Pods_GoogleSignInAPITVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleSignInAPITVTests.framework; path = "Pods-GoogleSignInAPITVTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A781E6C7BA06DD8A0A80B0494DA26A4E /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		B3E3C9923A60F9B0BE0DDE43AA234204 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B4728A86AD91D0728DFEF1F11ECAFCDA /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
+		B570D7255E4E5CF64ADBD0DE8B65B446 /* Pods-GoogleSignInAPITVTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleSignInAPITVTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5CB2A1C6E5401F00C9F5131D2ED3F40 /* Pods-GoogleSignInAPITVUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleSignInAPITVUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B68AE809A8CC7489C56C94427B6541D9 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		B6BCBCCC2391586D7032720F2461E479 /* Pods-GoogleSignInAPITV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleSignInAPITV-resources.sh"; sourceTree = "<group>"; };
+		BD8EEC210981A388DDF8ECCEF8433904 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		BFFA858C2DB288BB308A48DC5193E6F1 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
+		C5E0FC77832DD8F52AAEA6A07DF01FFA /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
+		C75F5106CF2E74A67689DE4BE2044812 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77D18CFF70005374C8F900E1DD36D8C /* Pods-GoogleSignInAPITV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleSignInAPITV.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5F4A276E2678B6049F2F139147EC12 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		CF4E1A3D8927D2E8AF5E4B4F6D73D87F /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		D0C79B6A10246B1EFEAF7A72B38E7E43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18778C1AF0587ED32C6CD637EEAB30E /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		D616D252CC013F9DF63D59C1D12DD0F6 /* Pods-GoogleSignInAPITVUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleSignInAPITVUITests-resources.sh"; sourceTree = "<group>"; };
+		D6CD090D6C0E2DF9F4E1C5113FA2809B /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		D9138162B659B43A23A172E9494C2493 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		D9B468F428AC55896FEC0D8C3A1181AC /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		DB6F691A801D32620ED501B0C3559FA9 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		DDD911A7C16FAA09302EE0DF2F0B0DA9 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		DF52D452D72EF81C1A4A1B4DBDFC452A /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		E7480BAB29A5573D40EBF6E02381C1E2 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		EE067C99606C1EBDBC80082BBB29D731 /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
+		EF1DFE2B8376D745448850154614C56E /* Pods-GoogleSignInAPITVUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleSignInAPITVUITests.modulemap"; sourceTree = "<group>"; };
+		F66FB4A94C84BB9C1D73F5EA66E19E23 /* Pods-GoogleSignInAPITVUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleSignInAPITVUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F73DBED881E87561D63D92E028CCC6C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F9CBFE33A983A0ACCB041F14278C83A7 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		FB5E85CCDC82593A54E6A9AA5AD8482E /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		FE1AA6756E58CE96F019A151D4C0E9A5 /* Pods-GoogleSignInAPITVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleSignInAPITVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE75EB1A5DFBFA4A88D7D61EFBA99D67 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A3FA37EE0D07A3C268663CE20F9A558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2DA12C1B534FF8E396E6D05C11171D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4B658FD4937F052DAFCD5512CE8571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C1E96366F805A0750CAC3EB3594147 /* Foundation.framework in Frameworks */,
+				5C2587B575C94F023301A1F960F1CF4F /* QuartzCore.framework in Frameworks */,
+				F69DDDB0D6DE509549F8FBCD552A0044 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C8330C00FF48888B4244667D6B5A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592724B2ABDF75BF3EA3AA45D692BE42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEAA18EC66828A5D409B39422715D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755C47106790C820CDC02DEA34BA744B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069840B402C04EF83178051BEE9A52EC /* Pods-GoogleSignInAPITV */ = {
+			isa = PBXGroup;
+			children = (
+				560350C91C9EBFB8F5872D856DC1C34A /* Info.plist */,
+				0BD0E5C5CDCEA1FB6485F04145DE00F6 /* Pods-GoogleSignInAPITV.modulemap */,
+				8B885F6C6CE85063DD76370F8C6F9301 /* Pods-GoogleSignInAPITV-acknowledgements.markdown */,
+				0296E5B96C43ADDD4C8E364909D81F45 /* Pods-GoogleSignInAPITV-acknowledgements.plist */,
+				7516D11BC94F382A7E8CDDE624F1D0C2 /* Pods-GoogleSignInAPITV-dummy.m */,
+				4096B435C542628DF84979C1C8F7E91B /* Pods-GoogleSignInAPITV-frameworks.sh */,
+				B6BCBCCC2391586D7032720F2461E479 /* Pods-GoogleSignInAPITV-resources.sh */,
+				7898D613E95C60DE271308C8707E0617 /* Pods-GoogleSignInAPITV-umbrella.h */,
+				C77D18CFF70005374C8F900E1DD36D8C /* Pods-GoogleSignInAPITV.debug.xcconfig */,
+				7CCA805ECB19BD13DA9441315270EF9D /* Pods-GoogleSignInAPITV.release.xcconfig */,
+			);
+			name = "Pods-GoogleSignInAPITV";
+			path = "Target Support Files/Pods-GoogleSignInAPITV";
+			sourceTree = "<group>";
+		};
+		0EDEDEF1973AD3CC0072F564A925EDEB /* CorePromise */ = {
+			isa = PBXGroup;
+			children = (
+				4B8576A7E568CD96E65A5407B00B5896 /* AAA-CocoaPods-Hack.h */,
+				17DD34F4949EBF973D4FD0C5BF0BD095 /* after.m */,
+				94397C577F85CF23A22F74205C0AA43F /* after.swift */,
+				1200736ACCEE4B6B92F6295F0CCA3B9C /* AnyPromise.h */,
+				D6CD090D6C0E2DF9F4E1C5113FA2809B /* AnyPromise.m */,
+				F9CBFE33A983A0ACCB041F14278C83A7 /* AnyPromise.swift */,
+				1D6C539E5B4145B90676D3AAF6468033 /* dispatch_promise.m */,
+				B4728A86AD91D0728DFEF1F11ECAFCDA /* DispatchQueue+Promise.swift */,
+				33A4A6D67494C3E0002B420C1357F36C /* Error.swift */,
+				4A4E5506A73993A8CE10F576A1144A74 /* GlobalState.m */,
+				D9138162B659B43A23A172E9494C2493 /* hang.m */,
+				456358201EDF663892F5A5110CC5CA7E /* join.m */,
+				EE067C99606C1EBDBC80082BBB29D731 /* join.swift */,
+				FE75EB1A5DFBFA4A88D7D61EFBA99D67 /* Promise.swift */,
+				69F0F9E4EAC2A11EF1EF310E64F90E29 /* Promise+AnyPromise.swift */,
+				C5E0FC77832DD8F52AAEA6A07DF01FFA /* Promise+Properties.swift */,
+				D18778C1AF0587ED32C6CD637EEAB30E /* PromiseKit.h */,
+				CF4E1A3D8927D2E8AF5E4B4F6D73D87F /* race.swift */,
+				B68AE809A8CC7489C56C94427B6541D9 /* State.swift */,
+				784309BC2F9F664345CBDAC98F1B3F64 /* when.m */,
+				54353A34BACE92CC6C9B58F9A002D80C /* when.swift */,
+				151F3BCB4D3157FA04D58BB030A3F0C1 /* wrap.swift */,
+				1067C44E58FDC70B966E04FBDE74357C /* Zalgo.swift */,
+			);
+			name = CorePromise;
+			sourceTree = "<group>";
+		};
+		38908CA03A120B329909CCDB1910CD05 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				0EDEDEF1973AD3CC0072F564A925EDEB /* CorePromise */,
+				6D148CD65D2A2774D613EDC0E3F45F27 /* Foundation */,
+				D731C6A1D43A1A4020D48CE568AB19B9 /* QuartzCore */,
+				BC3601AD5BED07DF695ECC52C0E11BB1 /* Support Files */,
+				F9C1C38E536FD710388B234B7D8FA163 /* UIKit */,
+			);
+			name = PromiseKit;
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		3B327D5130E07D782E4229DC6EF10BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CEF1DBC350ABBDCEE10381A29128E7 /* Pods_GoogleSignInAPITV.framework */,
+				A5F5B96E282210819ACF175601C2C20F /* Pods_GoogleSignInAPITVTests.framework */,
+				712414F1EB668E30FB07799BF93B44E2 /* Pods_GoogleSignInAPITVUITests.framework */,
+				05A5C5FEF5189AA4DA4054E1EAFEAD6A /* PromiseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		583F14E2349D02F4558AE51FCC68A9BD /* Pods-GoogleSignInAPITVTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C79B6A10246B1EFEAF7A72B38E7E43 /* Info.plist */,
+				371E8D8D0DED9FAF17B75A3A91A076EA /* Pods-GoogleSignInAPITVTests.modulemap */,
+				11630026919854EA69DEBD91698E855E /* Pods-GoogleSignInAPITVTests-acknowledgements.markdown */,
+				B570D7255E4E5CF64ADBD0DE8B65B446 /* Pods-GoogleSignInAPITVTests-acknowledgements.plist */,
+				5415CBA138C711FD8B1020CB922277DD /* Pods-GoogleSignInAPITVTests-dummy.m */,
+				13790E3D773BA4ED6DBAAAE94686CE35 /* Pods-GoogleSignInAPITVTests-frameworks.sh */,
+				00536A85C0E87F9769034BE2369D94A7 /* Pods-GoogleSignInAPITVTests-resources.sh */,
+				84CD17372CE67CF49E053E8123611A92 /* Pods-GoogleSignInAPITVTests-umbrella.h */,
+				4E95D4D43E5BE74F3D53886A8F3B4A3D /* Pods-GoogleSignInAPITVTests.debug.xcconfig */,
+				8572C74CBDD296D41AC42EB7096B46B9 /* Pods-GoogleSignInAPITVTests.release.xcconfig */,
+			);
+			name = "Pods-GoogleSignInAPITVTests";
+			path = "Target Support Files/Pods-GoogleSignInAPITVTests";
+			sourceTree = "<group>";
+		};
+		58B574624329B22DC8D990D84BA4AA00 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3E3C9923A60F9B0BE0DDE43AA234204 /* Foundation.framework */,
+				6A8876BB096E5F3D848B36809A1D5551 /* QuartzCore.framework */,
+				F73DBED881E87561D63D92E028CCC6C4 /* UIKit.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		6D148CD65D2A2774D613EDC0E3F45F27 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				DF52D452D72EF81C1A4A1B4DBDFC452A /* afterlife.swift */,
+				638FC877C26AE2698B03F57C63A5C636 /* NSNotificationCenter+AnyPromise.h */,
+				CB5F4A276E2678B6049F2F139147EC12 /* NSNotificationCenter+AnyPromise.m */,
+				294026AB8B28C610FC57DF2A26EB7FC9 /* NSNotificationCenter+Promise.swift */,
+				BD8EEC210981A388DDF8ECCEF8433904 /* NSObject+Promise.swift */,
+				A781E6C7BA06DD8A0A80B0494DA26A4E /* NSTask+AnyPromise.h */,
+				1E33654BE09E7109A0FEEE76E49BF8E0 /* NSTask+AnyPromise.m */,
+				9696FB863D0DE618F5B3684606228A4A /* NSURLSession+AnyPromise.h */,
+				D9B468F428AC55896FEC0D8C3A1181AC /* NSURLSession+AnyPromise.m */,
+				337F0663F2253CE5F69CA018CA7C90D8 /* NSURLSession+Promise.swift */,
+				9D009A35EE64D77102391EC364147766 /* PMKFoundation.h */,
+				7E43CFF6D7A6E68F617343E7F43D0A70 /* Process+Promise.swift */,
+				3D8C2DDC09A2F5FF7FC82E8881A3996B /* URLDataPromise.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E21CD4A8B1AFA3C7584FF7A6CDF1A16B /* Frameworks */,
+				9BC2F6B1CCEF88766C020D4B57771407 /* Pods */,
+				3B327D5130E07D782E4229DC6EF10BC1 /* Products */,
+				BE4B43B883619E23E30AA2AE83FB7C15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC2F6B1CCEF88766C020D4B57771407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38908CA03A120B329909CCDB1910CD05 /* PromiseKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B30D919625C4DB2D387C73FCA4099BFA /* Pods-GoogleSignInAPITVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A33EBF45EE8F10DF9EDE8A61F2E84FA9 /* Info.plist */,
+				EF1DFE2B8376D745448850154614C56E /* Pods-GoogleSignInAPITVUITests.modulemap */,
+				F66FB4A94C84BB9C1D73F5EA66E19E23 /* Pods-GoogleSignInAPITVUITests-acknowledgements.markdown */,
+				42353C6639EC8DF4EF63B7ED5DFB2755 /* Pods-GoogleSignInAPITVUITests-acknowledgements.plist */,
+				3F823EA81E8AB7F1E26A81CD43860C4E /* Pods-GoogleSignInAPITVUITests-dummy.m */,
+				B5CB2A1C6E5401F00C9F5131D2ED3F40 /* Pods-GoogleSignInAPITVUITests-frameworks.sh */,
+				D616D252CC013F9DF63D59C1D12DD0F6 /* Pods-GoogleSignInAPITVUITests-resources.sh */,
+				5A7115184B2E78D5D69C53ECD7C0F5F2 /* Pods-GoogleSignInAPITVUITests-umbrella.h */,
+				FE1AA6756E58CE96F019A151D4C0E9A5 /* Pods-GoogleSignInAPITVUITests.debug.xcconfig */,
+				7169D281BE21EBDE89279CC8CBD4D717 /* Pods-GoogleSignInAPITVUITests.release.xcconfig */,
+			);
+			name = "Pods-GoogleSignInAPITVUITests";
+			path = "Target Support Files/Pods-GoogleSignInAPITVUITests";
+			sourceTree = "<group>";
+		};
+		BC3601AD5BED07DF695ECC52C0E11BB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75F5106CF2E74A67689DE4BE2044812 /* Info.plist */,
+				DB6F691A801D32620ED501B0C3559FA9 /* PromiseKit.modulemap */,
+				633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */,
+				DDD911A7C16FAA09302EE0DF2F0B0DA9 /* PromiseKit-dummy.m */,
+				FB5E85CCDC82593A54E6A9AA5AD8482E /* PromiseKit-prefix.pch */,
+				41BE05D1B6D9DB09085F5D597DF8FCF4 /* PromiseKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
+			sourceTree = "<group>";
+		};
+		BE4B43B883619E23E30AA2AE83FB7C15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				069840B402C04EF83178051BEE9A52EC /* Pods-GoogleSignInAPITV */,
+				583F14E2349D02F4558AE51FCC68A9BD /* Pods-GoogleSignInAPITVTests */,
+				B30D919625C4DB2D387C73FCA4099BFA /* Pods-GoogleSignInAPITVUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D731C6A1D43A1A4020D48CE568AB19B9 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				37D86DBB6A7B7F77D79F889CEBC3755E /* CALayer+AnyPromise.h */,
+				6F48B3970DAE9346AD3FA54A3A613328 /* CALayer+AnyPromise.m */,
+				67E1D36DCB7BF8A7DEB230733B158119 /* PMKQuartzCore.h */,
+			);
+			name = QuartzCore;
+			sourceTree = "<group>";
+		};
+		E21CD4A8B1AFA3C7584FF7A6CDF1A16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B574624329B22DC8D990D84BA4AA00 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9C1C38E536FD710388B234B7D8FA163 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA858C2DB288BB308A48DC5193E6F1 /* PMKAlertController.swift */,
+				95632F4C8D15D6CF8EE867952FA69262 /* PMKUIKit.h */,
+				765DEE6E8D8C524E9695A1C7726AB582 /* UIView+AnyPromise.h */,
+				7A2B3D19404B7C7A8014B95D5977B946 /* UIView+AnyPromise.m */,
+				7307E7A48A7523AE477711BA4DF908C9 /* UIView+Promise.swift */,
+				7B1EC75F3F631688BE467D62877D90CD /* UIViewController+AnyPromise.h */,
+				E7480BAB29A5573D40EBF6E02381C1E2 /* UIViewController+AnyPromise.m */,
+				7FAE3B541056E3495362EF0C5DDB405B /* UIViewController+Promise.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5EE2C9D8C74B869A948E86E7614676E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC2AD1D9483E6D6A83B8CA8F814B432 /* Pods-GoogleSignInAPITVUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DE04C860FCD4CBAD6A047381FB077E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F07E87F9EF5C389AAE2ECAA56F09E5 /* Pods-GoogleSignInAPITV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB3640F60673999D010202B8580CD20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F84677B7A6B807248AAF45496EE8EE3 /* Pods-GoogleSignInAPITVTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5B29F48A5A12CC9053C88539C8EE66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522BA3F317CE9C8BEF667B6362A36F49 /* AAA-CocoaPods-Hack.h in Headers */,
+				8BD8B5AAABFADA57850170D0760C22D2 /* AnyPromise.h in Headers */,
+				09A5DC2CCA0162D9702BE0F92A8CFBAF /* CALayer+AnyPromise.h in Headers */,
+				6DCB8C9FAAF43293065D7E571A65C781 /* NSNotificationCenter+AnyPromise.h in Headers */,
+				1CF00C93F549572D85508F4F58E50822 /* NSTask+AnyPromise.h in Headers */,
+				59487D32842542A73B3C5BAE1A26D42C /* NSURLSession+AnyPromise.h in Headers */,
+				CF1A28403FEE60BFBB2FE8919368BD00 /* PMKFoundation.h in Headers */,
+				64F0A7468B95D5507CECEECE8BF1A6A3 /* PMKQuartzCore.h in Headers */,
+				10EDF06B9FF4FAAFE41FEB4DE276DCF4 /* PMKUIKit.h in Headers */,
+				7ACDAD37707256718C8548F9B75AFC1D /* PromiseKit-umbrella.h in Headers */,
+				D58DCCFA5F19480B57A69612D564371E /* PromiseKit.h in Headers */,
+				44A64DBBC6026A70389ACB93F67A1360 /* UIView+AnyPromise.h in Headers */,
+				79E020D76161C408391AA011B7A8B4C6 /* UIViewController+AnyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FAE50604D5EB9FAC0BFBB3553C57827 /* Pods-GoogleSignInAPITV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E59CC028507B485451E51648D228B71 /* Build configuration list for PBXNativeTarget "Pods-GoogleSignInAPITV" */;
+			buildPhases = (
+				87F126A527461035D987496DF7E948CF /* Sources */,
+				81C8330C00FF48888B4244667D6B5A78 /* Frameworks */,
+				D0DE04C860FCD4CBAD6A047381FB077E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BAF42A81518B7C8C36C62E748137CD /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleSignInAPITV";
+			productName = "Pods-GoogleSignInAPITV";
+			productReference = 95CEF1DBC350ABBDCEE10381A29128E7 /* Pods_GoogleSignInAPITV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E051466EBE306135C3B492C914F6A48 /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C072517603FF2AE046328EDE5A4DF8 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				C969A9312B0A352DA3443A2290BCE726 /* Sources */,
+				6B4B658FD4937F052DAFCD5512CE8571 /* Frameworks */,
+				FD5B29F48A5A12CC9053C88539C8EE66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 05A5C5FEF5189AA4DA4054E1EAFEAD6A /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7242762EC6203769EACCF7F9BFD8FFDF /* Pods-GoogleSignInAPITVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B56FAAAE02DBBD4B7266D2BC2B8746 /* Build configuration list for PBXNativeTarget "Pods-GoogleSignInAPITVUITests" */;
+			buildPhases = (
+				A223932D0ED302CC9895F073A86B5832 /* Sources */,
+				8AEAA18EC66828A5D409B39422715D08 /* Frameworks */,
+				5EE2C9D8C74B869A948E86E7614676E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GoogleSignInAPITVUITests";
+			productName = "Pods-GoogleSignInAPITVUITests";
+			productReference = 712414F1EB668E30FB07799BF93B44E2 /* Pods_GoogleSignInAPITVUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C547BAFF1F051D891EB11DA2BF966C81 /* Pods-GoogleSignInAPITVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9398F0CB6ECBA7604FF478AEC7E280 /* Build configuration list for PBXNativeTarget "Pods-GoogleSignInAPITVTests" */;
+			buildPhases = (
+				F5CFAEF99D1686629452D33393C0EEA5 /* Sources */,
+				6A3FA37EE0D07A3C268663CE20F9A558 /* Frameworks */,
+				FBB3640F60673999D010202B8580CD20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GoogleSignInAPITVTests";
+			productName = "Pods-GoogleSignInAPITVTests";
+			productReference = A5F5B96E282210819ACF175601C2C20F /* Pods_GoogleSignInAPITVTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B327D5130E07D782E4229DC6EF10BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAE50604D5EB9FAC0BFBB3553C57827 /* Pods-GoogleSignInAPITV */,
+				C547BAFF1F051D891EB11DA2BF966C81 /* Pods-GoogleSignInAPITVTests */,
+				7242762EC6203769EACCF7F9BFD8FFDF /* Pods-GoogleSignInAPITVUITests */,
+				4E051466EBE306135C3B492C914F6A48 /* PromiseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F126A527461035D987496DF7E948CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25373511BBD8C36F92469B65218588 /* Pods-GoogleSignInAPITV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A223932D0ED302CC9895F073A86B5832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C98E4BE3F1ED134604B233BB2DC82F /* Pods-GoogleSignInAPITVUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969A9312B0A352DA3443A2290BCE726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE467EC6A5D533A5BC9ACBD930A2FCF1 /* after.m in Sources */,
+				EB819595D0CE9CAC69DE2D67B8EBC157 /* after.swift in Sources */,
+				2E2554DF112EA9C77366D40C04647921 /* afterlife.swift in Sources */,
+				1E920D7AC194A709BD38E82B444AE3C7 /* AnyPromise.m in Sources */,
+				72BF9E86109F8A0483F408CD811954F0 /* AnyPromise.swift in Sources */,
+				65FE2AC07B69BB393830EDC1D12E8FE9 /* CALayer+AnyPromise.m in Sources */,
+				C97B386321ACF5051F42931D7746F510 /* dispatch_promise.m in Sources */,
+				E49345A2B438E870F25F9AFB85BC89B9 /* DispatchQueue+Promise.swift in Sources */,
+				CE34505AAB7475DC5EFAEF69EC774DE3 /* Error.swift in Sources */,
+				74C80B85FBBEF676E7AB79C40455C6BE /* GlobalState.m in Sources */,
+				D4268A5E44E240955884AF39FF357191 /* hang.m in Sources */,
+				8A4D0C6F59A3E15A882C07A0FA537182 /* join.m in Sources */,
+				612375A96D8928060A5C6093682116DC /* join.swift in Sources */,
+				81DA851CA772117E9046C4573128324B /* NSNotificationCenter+AnyPromise.m in Sources */,
+				2A2893AB33AEAA9183E9F55965502364 /* NSNotificationCenter+Promise.swift in Sources */,
+				C75B3B2B5907D890615503F7C3B5AB5F /* NSObject+Promise.swift in Sources */,
+				15CC6BF6C838230E6B92018F7A5B22F6 /* NSTask+AnyPromise.m in Sources */,
+				328BDFE31ACA3B090E37584BC0420841 /* NSURLSession+AnyPromise.m in Sources */,
+				5DAC483F116DFBD60F8D033FE5DE6B79 /* NSURLSession+Promise.swift in Sources */,
+				E8BCB2277EA1819293704EFDF02CEEBC /* PMKAlertController.swift in Sources */,
+				36D17D696283F7792625AC20D1B62D7B /* Process+Promise.swift in Sources */,
+				EECF1CE5E47CC8ED9649917E4FFBC3B5 /* Promise+AnyPromise.swift in Sources */,
+				62DE9DD44AF7B45AEF2093C8FC9C6E99 /* Promise+Properties.swift in Sources */,
+				40FD668DE8B450A6AEF4D4222534A933 /* Promise.swift in Sources */,
+				4625165B45B976E679C20505312C3C51 /* PromiseKit-dummy.m in Sources */,
+				3C0BA4E2E6EAACF2D9FA42893D9451C5 /* race.swift in Sources */,
+				541CBE5BF72D77551AE6331807DFD050 /* State.swift in Sources */,
+				FD88E1A7F895877243C6A359E98622DF /* UIView+AnyPromise.m in Sources */,
+				479196131D43D1C4BB61103316A70753 /* UIView+Promise.swift in Sources */,
+				379AB47467FE719A7C73B2D57178A7FF /* UIViewController+AnyPromise.m in Sources */,
+				CC0D8A3E05D05F5B7BABCD84F324B9BA /* UIViewController+Promise.swift in Sources */,
+				3E07B930B33C26F31DFD56A57E4FB8AE /* URLDataPromise.swift in Sources */,
+				0C42D7AFE96B5B11441A8F01BA139BC7 /* when.m in Sources */,
+				6D374A028DF55B041DC546487EE7F579 /* when.swift in Sources */,
+				134F18FD5EC603BA32B6A33445C98BF7 /* wrap.swift in Sources */,
+				3C834B1F3BA437CCE790959DE3C2BD20 /* Zalgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CFAEF99D1686629452D33393C0EEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A2A9C5FA1E8FD24786582592A60EF /* Pods-GoogleSignInAPITVTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BAF42A81518B7C8C36C62E748137CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 4E051466EBE306135C3B492C914F6A48 /* PromiseKit */;
+			targetProxy = 4CFC03BAFE32A0209A355F259E3A3D1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15DF290221E547F4B59C2736C93AA4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCA805ECB19BD13DA9441315270EF9D /* Pods-GoogleSignInAPITV.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleSignInAPITV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleSignInAPITV/Pods-GoogleSignInAPITV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleSignInAPITV;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B1CCCF558EDCA7FEF8654A7CA935531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E95D4D43E5BE74F3D53886A8F3B4A3D /* Pods-GoogleSignInAPITVTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleSignInAPITVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleSignInAPITVTests/Pods-GoogleSignInAPITVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleSignInAPITVTests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B24733785915FCA39C782D90B19BF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1AA6756E58CE96F019A151D4C0E9A5 /* Pods-GoogleSignInAPITVUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleSignInAPITVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleSignInAPITVUITests/Pods-GoogleSignInAPITVUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleSignInAPITVUITests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CD40E361951785E0E8D65F5D53E8C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74A906B461FC29157DEB27BD7C9B9206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7169D281BE21EBDE89279CC8CBD4D717 /* Pods-GoogleSignInAPITVUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleSignInAPITVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleSignInAPITVUITests/Pods-GoogleSignInAPITVUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleSignInAPITVUITests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		823D9BA782319CDA33256750DDB5CE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82A971EF666D8C8682CF40587173B75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BB91729B70EA7BD39AFC79448ADB4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		9533B769AA33F218C799FE4D0FEE3195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77D18CFF70005374C8F900E1DD36D8C /* Pods-GoogleSignInAPITV.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleSignInAPITV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleSignInAPITV/Pods-GoogleSignInAPITV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleSignInAPITV;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE0830EF8EE5C21DF8116EDD9EC4DDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8572C74CBDD296D41AC42EB7096B46B9 /* Pods-GoogleSignInAPITVTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleSignInAPITVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleSignInAPITVTests/Pods-GoogleSignInAPITVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleSignInAPITVTests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9398F0CB6ECBA7604FF478AEC7E280 /* Build configuration list for PBXNativeTarget "Pods-GoogleSignInAPITVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1CCCF558EDCA7FEF8654A7CA935531 /* Debug */,
+				EE0830EF8EE5C21DF8116EDD9EC4DDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB91729B70EA7BD39AFC79448ADB4BF /* Debug */,
+				4CD40E361951785E0E8D65F5D53E8C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E59CC028507B485451E51648D228B71 /* Build configuration list for PBXNativeTarget "Pods-GoogleSignInAPITV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9533B769AA33F218C799FE4D0FEE3195 /* Debug */,
+				15DF290221E547F4B59C2736C93AA4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C072517603FF2AE046328EDE5A4DF8 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823D9BA782319CDA33256750DDB5CE14 /* Debug */,
+				82A971EF666D8C8682CF40587173B75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B56FAAAE02DBBD4B7266D2BC2B8746 /* Build configuration list for PBXNativeTarget "Pods-GoogleSignInAPITVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B24733785915FCA39C782D90B19BF47 /* Debug */,
+				74A906B461FC29157DEB27BD7C9B9206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

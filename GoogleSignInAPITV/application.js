@@ -30,8 +30,12 @@
  * the URL that was used to retrieve the application JavaScript.
  */
 App.onLaunch = function(options) {
+    /*
     var alert = createAlert("Hello World!", "Welcome to tvOS");
     navigationDocument.pushDocument(alert);
+     */
+    var loginPage = createGoogleLogin();
+    navigationDocument.pushDocument(loginPage);
 }
 
 
@@ -53,6 +57,19 @@ App.onDidBecomeActive = function() {
 
 App.onWillTerminate = function() {
     
+}
+
+var createGoogleLogin = function() {
+    var loginDiv = `<divTemplate>
+    <img id="profileImage" style="tv-align:center; width:200; height:200; margin:50;" src="" />
+    <button id="shareLinkButton" style="tv-align:center; width:573; height:108; margin:20;">
+    <text style="font-size:39" >Sign in with Google</text>
+    </button>
+    </divTemplate>
+`
+    var parser = new DOMParser();
+    var loginDoc = parser.parseFromString(createGoogleLogin, "application/xml");
+    return loginDoc;
 }
 
 
