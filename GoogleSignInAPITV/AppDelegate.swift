@@ -54,11 +54,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
             }
         }
         let signInController = GoogleSignInController()
-        signInController.requestPresentationCode().then {userCode, deviceCode, interval -> Void in
-            print("Usercode: \(userCode)\nDeviceCode:\(deviceCode)\ninterval: \(interval)")
-            signInController.requestAccessToken(fromDeviceCode: deviceCode, atInterval: interval).then { accessToken in
+        signInController.requestPresentationCode().then { signInResponse -> Promise<String> in
+                guard let userCode = signInResponse["user_code"] as? String,
+                    let deviceCode = signInResponse["device_code"] as? String,
+                    let interval = signInResponse["interval"] as? Int,
+                    let verificationURL = signInResponse["verification_url"] else {
+                        throw NSError(domain: "Login", code: 0, userInfo: [NSLocalizedDescriptionKey : "Generic login failure"])
+                }
+                print ("Go to \(verificationURL) in your browser on a device and enter code \"\(userCode)\"")
+                return signInController.requestAccessToken(fromDeviceCode: deviceCode, atInterval: interval)
+            }.then { accessToken in
                 print("Access Token: \(accessToken)")
-            }
+            }.catch { error in
+                print ("Error: \(error)")
         }
         
         appController = TVApplicationController(context: appControllerContext, window: window, delegate: self)
