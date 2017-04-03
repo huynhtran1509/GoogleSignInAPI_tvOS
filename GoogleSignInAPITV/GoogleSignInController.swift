@@ -61,17 +61,18 @@ struct GoogleSignInController {
             var request = URLRequest(url: components.url!)
             request.httpMethod = "POST"
             
-            URLSession.shared.dataTask(with: request).asDictionary().then { dictionary -> Void in
+            URLSession.shared.dataTask(with: request).asDictionary().then { dictionary -> Promise<String> in
                 print("Response:\(dictionary)")
                 guard let accessToken = dictionary["access_token"] as? String else {
-                    let error = NSError(domain: "Login", code: 0, userInfo: [NSLocalizedDescriptionKey : "Generic login failure"])
-                    reject(error)
-                    return
+                    throw LoginError.accessTokenFormat
                 }
-                fulfill(accessToken)
-            }.recover { error -> Void in
+                return Promise(value:accessToken)
+            }.recover { error -> Promise<String> in
                 guard (error as! PMKURLError).canRetry && retryCount < 3 else { throw error }
                 retryCount += 1
+                return after(interval: TimeInterval(interval)).then { _ -> Promise<String> in
+                    self.requestAccessToken(fromDeviceCode: deviceCode, atInterval: interval)
+                }
             }.catch {error in
                 print ("Error: \(error)")
             }
@@ -79,11 +80,35 @@ struct GoogleSignInController {
     }
 }
 
+enum LoginError : LocalizedError {
+    case accessTokenFormat
+}
+/*
+ // The below was suggested by https://github.com/mxcl/PromiseKit/issues/594 , but needs coaxing
+extension Promise {
+    func poll<T>(_ test: @escaping () -> Promise<T>) -> Promise<T> {
+        var x = 0
+        
+        func iteration() -> Promise<T> {
+            return test().recover { error -> Promise<T> in
+                guard let pmkError = error as? PMKURLError,
+                       pmkError.canRetry && x < 3 else {
+                        throw error
+                }
+                x += 1
+                return after(interval: 0.1).then(execute: iteration)
+            }
+        }
+        
+        return iteration()
+    }
+}
+ */
+
 extension PMKURLError {
     var canRetry : Bool {
         switch self {
-            case .badResponse(let request, let data?, let response):
-                print ("Request: \(request)\nData:\(data)\nResponse:\(response)")
+            case .badResponse(_, let data?, _):
                 if let responseJSON = try? JSONSerialization.jsonObject(with: data),
                    let googleResponse = responseJSON as? [String:Any],
                    let errorDescription = googleResponse["error"] as? String,
